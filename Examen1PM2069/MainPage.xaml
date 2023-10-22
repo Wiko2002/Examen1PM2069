@@ -1,0 +1,14 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1PM2069.MainPage">
+
+    <StackLayout>
+       <Image x:Name="imgFoto" Aspect="AspectFit" />
+
+        <!-- Caja de texto -->
+        <Entry x:Name="txtDescripcion" Placeholder="Descripción" />
+
+        <!-- Botón para guardar -->
+        <Button Text="Guardar" Clicked="OnGuardarClicked" />
+    </StackLayout>
+</ContentPage>
